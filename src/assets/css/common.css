@@ -46,7 +46,7 @@ a{text-decoration:none; color:#333;}
 #login .login{width:100%;}
 #login .login ul li{height:52px; line-height:52px; border-bottom:1px solid #e7e7e7;}
 #login .login ul li label{font-size:16px; margin:0 10px 0 15px; width:50px; display:inline-block;}
-#login .login ul li input{border:0; font-size:16px; color:#222; font-weight:500;}
+#login .login ul li input{border:0; font-size:16px; color:#222; width:10rem; height:100%; font-weight:500;}
 #login .login ul li input::-webkit-input-placeholder{color:#ccc;}
 #login .login ul li input:focus{outline:none;}
 #login .login ul li .btn01{border:0; border-left:1px solid #e7e7e7; background:#fff; height:52px; padding:0 15px; float:right; color:#999; font-size:16px;}
@@ -159,7 +159,7 @@ a{text-decoration:none; color:#333;}
 #last .c_3 ul li p{padding:.2rem; text-align:right; font-size:.95rem}
 #last .c_3 ul li p span{float:left; color:rgb(240, 56, 103); font-size:.5rem;}
 #fast .top{width:100%; background:url(../../assets/images/kq_bg01.jpg) no-repeat; background-size:100% 100%;}
-#fast .top .search{padding:10px 15px;}
+#fast .top .search{padding:10px 15px 9px;}
 #fast .top .search input{width:100%; height:2rem; position:relative; line-height:2rem; border:1px solid #edeeee; border-radius:.2rem; background:#f3f4f4; color:#98989e; text-indent:.5rem;}
 #fast .top .search .btn{background:url(../images/search.png) no-repeat; width:30px; height:28px; border:0; position:absolute; right:.5rem; top:20px; background-size:18px;}
 #fast .banner{width:100%; background:url(../images/kq_bg02.jpg) no-repeat; background-size:100% 100%;}
@@ -197,7 +197,7 @@ a{text-decoration:none; color:#333;}
 #fast .c_3 ul{margin:.8rem 1rem 0; padding-bottom:1.5rem;}
 #fast .c_3::before{content:""; display:table;}
 #clear{background:#f0edf1;}
-#clear .top{width:100%; background:url(../images/qc_bg01.jpg) no-repeat; background-size:100% 100%; height:8rem;}
+#clear .top{width:100%; background:url(../images/qc_bg01.jpg) no-repeat; background-size:100% 100%; height:7.4rem;}
 #clear .brand{width:100%; background:url(../images/qc_bg02.jpg) no-repeat; background-size:100% 100%; position:relative;}
 #clear .brand ul{display:flex; flex-direction:row; flex-wrap:wrap; margin:5rem 1rem 0;}
 #clear .brand ul li{width:23%; margin-right:2%; margin-bottom:1.2rem; text-align:center;}
@@ -377,11 +377,11 @@ a{text-decoration:none; color:#333;}
 #detail .price_sm p{font-size:.8rem; color:#666; line-height:23px;}
 #detail .bottom{font-size:.8rem; color:#999; text-align:center; padding:10px 0; margin-bottom:5rem;}
 #detail footer{background:#fff; width:100%; border-top:1px solid #e7e7e7; position:fixed; bottom:0; left:0;}
-#detail footer .con{padding:10px 15px; display:flex; flex-direction:row;}
-#detail footer .con .lf{width:10%; text-align:center; position:relative; z-index:8;}
-#detail footer .con .lf span{position:absolute; z-index:9; top:.6rem; color:#de3c96; left:.95rem;}
+#detail footer .con{padding:10px; display:flex; flex-direction:row;}
+#detail footer .con .lf{width:12%; text-align:center; position:relative; z-index:8;}
+#detail footer .con .lf span{position:absolute; z-index:9; top:.6rem; color:#de3c96; left:0; width:100%; text-align:center;}
 #detail footer .con .lf img{width:2rem; margin-top:.2rem;}
-#detail footer .con .rt{width:90%;}
+#detail footer .con .rt{width:88%;}
 #detail footer .con .rt ul{height:3.5rem; text-align:center; font-size:1rem; border-radius:.5rem; color:#fff; overflow:hidden; display:flex;}
 #detail footer .con .rt ul li{background:#f688a4; width:100%; padding-top:.6rem; line-height:1.3rem;}
 #detail footer .con .rt ul li span{font-size:1.5rem; display:block;}
@@ -414,8 +414,8 @@ a{text-decoration:none; color:#333;}
 #car .con_list ul li .color{color:#999; font-size:.9rem; margin-bottom:10px;}
 #car .con_list ul li .post{margin-bottom:10px;}
 #car .con_list ul li .post span{color:#627db6; background:#edf3ff; border-radius:1rem; display:inline-block; margin-right:10px; padding:2px 5px; font-size:.8rem;}
-#car .con_list ul li i{width:1.8rem; height:1.8rem; line-height:1.8rem; color:#83878f; text-align:center; font-size:1.1rem; border:1px solid #e7e7e7; display:inline-block;}
-#car .con_list ul li .count{height:1.8rem; line-height:1.8rem; padding:0 .8rem; color:#83878f; text-align:center; font-size:1.1rem; border-top:1px solid #e7e7e7; border-bottom:1px solid #ccc; display:inline-block;}
+#car .con_list ul li i{width:1.8rem; height:1.8rem; line-height:1.8rem; font-style:normal; color:#83878f; text-align:center; font-size:1.1rem; border:1px solid #e7e7e7; display:inline-block;}
+#car .con_list ul li .count{height:1.8rem; line-height:1.8rem; padding:0 .8rem; color:#83878f; text-align:center; font-size:1.1rem; border-top:1px solid #e7e7e7; border-bottom:1px solid #e7e7e7; display:inline-block;}
 #car .con_list ul li .btn{background:url(../images/close.png) no-repeat #fff; border:0; width:20px; height:20px; background-size:100%; float:right; margin-top:5px;}
 #car .con_list .sub{font-size:1.2rem; text-align:right; padding:15px 0;}
 #car .con_list .youhui{background:#fff; padding:15px; color:#555; font-size:1rem; margin-bottom:10px;}
