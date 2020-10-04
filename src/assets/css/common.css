@@ -169,7 +169,7 @@ a{text-decoration:none; color:#333;}
 .animate-up{transition:all 0.5s ease-in-out; transform:translateY(-35px);}
 .animate-left{transition:all 0.1s ease-in-out; transform:translateX(-1.5rem);}
 #fast{background:#f0f6fb;}
-#fast .c_1{width:100%; background:url(../images/kq_bg03.png) no-repeat; background-size:100%;}
+#fast .c_1{width:100%; background:url(../images/kq_bg03.png) no-repeat; background-size:100% 100%;}
 #fast .c_1>ul{margin:4rem 1rem .2rem; padding-bottom:1rem; display:flex; flex-direction:row; overflow-x:auto;}
 #fast .c_1>ul li{width:7.5rem; margin-right:.8rem; position:relative; z-index:9}
 #fast .c_1>ul li img{width:7.5rem; height:7.5rem;}
