@@ -163,7 +163,7 @@ a{text-decoration:none; color:#333;}
 #fast .top .search input{width:100%; height:2rem; position:relative; line-height:2rem; border:1px solid #edeeee; border-radius:.2rem; background:#f3f4f4; color:#98989e; text-indent:.5rem;}
 #fast .top .search .btn{background:url(../images/search.png) no-repeat; width:30px; height:28px; border:0; position:absolute; right:.5rem; top:20px; background-size:18px;}
 #fast .banner{width:100%; background:url(../images/kq_bg02.jpg) no-repeat; background-size:100% 100%;}
-#fast #bannerCon{height:6rem; overflow: hidden; padding-top:2rem;}
+#fast #bannerCon{height:6.2rem; overflow: hidden; padding-top:2rem;}
 #fast #bannerCon li{height:35px;}
 #fast #bannerCon li a{padding:.3rem .5rem; border-radius:1rem; background:rgb(242, 34, 86); color:#fff; opacity:0.8;}
 .animate-up{transition:all 0.5s ease-in-out; transform:translateY(-35px);}
@@ -197,7 +197,7 @@ a{text-decoration:none; color:#333;}
 #fast .c_3 ul{margin:.8rem 1rem 0; padding-bottom:1.5rem;}
 #fast .c_3::before{content:""; display:table;}
 #clear{background:#f0edf1;}
-#clear .top{width:100%; background:url(../images/qc_bg01.jpg) no-repeat; background-size:100% 100%; height:7.4rem;}
+#clear .top{width:100%; background:url(../images/qc_bg01.jpg) no-repeat; background-size:100% 100%; height:7.5rem;}
 #clear .brand{width:100%; background:url(../images/qc_bg02.jpg) no-repeat; background-size:100% 100%; position:relative;}
 #clear .brand ul{display:flex; flex-direction:row; flex-wrap:wrap; margin:5rem 1rem 0;}
 #clear .brand ul li{width:23%; margin-right:2%; margin-bottom:1.2rem; text-align:center;}
